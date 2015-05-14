@@ -153,7 +153,7 @@ median(new_step_sum_by_date$steps)
 ```
 ## [1] 10766.19
 ```
-The mean increases because the values with zero now become larger than zero after imputation.However we replace the NA value by the mean of their intervals so the overall shape of data does not changed, so the median is the same.
+The mean and median increases because the values with zero now become larger than zero after imputation.However we replace the NA value by the mean of their intervals so the overall shape of data, except in zero point, does not change to much.
 
 ## Are there differences in activity patterns between weekdays and weekends?
 1. Create a new factor variable in the dataset with two levels – “weekday” and “weekend” indicating whether a given date is a weekday or weekend day.

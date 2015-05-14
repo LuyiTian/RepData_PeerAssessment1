@@ -155,7 +155,7 @@ qplot(new_step_sum_by_date$steps, binwidth = 1000, xlab = &quot;total number of 
 <pre><code>## [1] 10766.19</code></pre>
 <pre class="r"><code>median(new_step_sum_by_date$steps)</code></pre>
 <pre><code>## [1] 10766.19</code></pre>
-<p>The mean increases because the values with zero now become larger than zero after imputation.However we replace the NA value by the mean of their intervals so the overall shape of data does not changed, so the median is the same.</p>
+<p>The mean and median increases because the values with zero now become larger than zero after imputation.However we replace the NA value by the mean of their intervals so the overall shape of data, except in zero point, does not change to much.</p>
 </div>
 <div id="are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="section level2">
 <h2>Are there differences in activity patterns between weekdays and weekends?</h2>
